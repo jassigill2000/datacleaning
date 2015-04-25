@@ -16,3 +16,6 @@ Before the 5 steps are performed the script downloads the data and unzips the da
 * A similar approach is taken with activity names through the `activityLabels` variable.
 * `Data` merges `dataXFeature`, `dataYActivity` and `subjectData` in a big dataset.
 * Finally, `averages_data` contains the relevant averages which will be later stored in a `.csv` file. `ddply()` from the plyr package is used to apply `colMeans()` to get the means for the columns per subject per activity.
+
+I generate a .csv file instead of a .txt file as it is very easy to view a .csv file in excel.
+And the data looks pretty neat if viewed in excel.
